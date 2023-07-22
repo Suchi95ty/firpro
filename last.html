@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.example {
+  background-color: lightgrey;
+  padding: 3px,5px;
+  float: left;
+  border: 8px solid red;
+  margin:50px;
+  width: 150px;
+  height:35px;
+}
+
+@media screen and (min-width: 480px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Change the font size of an element on different screen sizes</h2>
+
+<div class="example">HI</div>
+
+<p></p>
+
+</body>
+</html>
+
+
